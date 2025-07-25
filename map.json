@@ -2331,7 +2331,7 @@
         {
          "columns":9,
          "firstgid":321,
-         "image":"pacman_tilemap.png",
+         "image":"gartic.jpg",
          "imageheight":416,
          "imagewidth":288,
          "margin":0,
@@ -2357,7 +2357,7 @@
         {
          "columns":15,
          "firstgid":581,
-         "image":"spy-logo.png",
+         "image":"tanks_tilemap.png",
          "imageheight":416,
          "imagewidth":480,
          "margin":0,
