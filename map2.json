@@ -880,7 +880,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/lichess.org/\/"
+                         "value":"https://lichess.org/"
                         }],
                  "type":"tilelayer",
                  "visible":true,
