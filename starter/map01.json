@@ -108,7 +108,7 @@
          "name":"start",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":100,
          "x":0,
          "y":0
@@ -829,109 +829,24 @@
  "tileheight":32,
  "tilesets":[
         {
-         "columns":10,
          "firstgid":1,
-         "image":"..\/assets\/tileset5_export.png",
-         "imageheight":320,
-         "imagewidth":320,
-         "margin":0,
-         "name":"tileset5_export",
-         "properties":[
-                {
-                 "name":"tilesetCopyright",
-                 "type":"string",
-                 "value":"\u00a9 2021 WorkAdventure <https:\/\/workadventu.re\/> \nLicence: WORKADVENTURE SPECIFIC RESOURCES LICENSE (see LICENSE.assets file)"
-                }],
-         "spacing":0,
-         "tilecount":100,
-         "tileheight":32,
-         "tilewidth":32
+         "source":"tileset5_export.tsx"
         }, 
         {
-         "columns":10,
          "firstgid":101,
-         "image":"..\/assets\/tileset6_export.png",
-         "imageheight":320,
-         "imagewidth":320,
-         "margin":0,
-         "name":"tileset6_export",
-         "properties":[
-                {
-                 "name":"tilesetCopyright",
-                 "type":"string",
-                 "value":"\u00a9 2021 WorkAdventure <https:\/\/workadventu.re\/> \nLicence: WORKADVENTURE SPECIFIC RESOURCES LICENSE (see LICENSE.assets file)"
-                }],
-         "spacing":0,
-         "tilecount":100,
-         "tileheight":32,
-         "tilewidth":32
+         "source":"tileset6_export.tsx"
         }, 
         {
-         "columns":11,
          "firstgid":201,
-         "image":"..\/assets\/tileset1.png",
-         "imageheight":352,
-         "imagewidth":352,
-         "margin":0,
-         "name":"tileset1",
-         "properties":[
-                {
-                 "name":"tilesetCopyright",
-                 "type":"string",
-                 "value":"\u00a9 2021 WorkAdventure <https:\/\/workadventu.re\/> \nLicence: WORKADVENTURE SPECIFIC RESOURCES LICENSE (see LICENSE.assets file)"
-                }],
-         "spacing":0,
-         "tilecount":121,
-         "tileheight":32,
-         "tilewidth":32
+         "source":"tileset1.tsx"
         }, 
         {
-         "columns":11,
          "firstgid":322,
-         "image":"..\/assets\/tileset1-repositioning.png",
-         "imageheight":352,
-         "imagewidth":352,
-         "margin":0,
-         "name":"tileset1-repositioning",
-         "properties":[
-                {
-                 "name":"tilesetCopyright",
-                 "type":"string",
-                 "value":"\u00a9 2021 WorkAdventure <https:\/\/workadventu.re\/> \nLicence: WORKADVENTURE SPECIFIC RESOURCES LICENSE (see LICENSE.assets file)"
-                }],
-         "spacing":0,
-         "tilecount":121,
-         "tileheight":32,
-         "tilewidth":32
+         "source":"tileset1-repositioning.tsx"
         }, 
         {
-         "columns":6,
          "firstgid":443,
-         "image":"..\/assets\/Special_Zones.png",
-         "imageheight":64,
-         "imagewidth":192,
-         "margin":0,
-         "name":"Special_Zones",
-         "properties":[
-                {
-                 "name":"tilesetCopyright",
-                 "type":"string",
-                 "value":"\u00a9 2021 WorkAdventure <https:\/\/workadventu.re\/> \nLicence: WORKADVENTURE SPECIFIC RESOURCES LICENSE (see LICENSE.assets file)"
-                }],
-         "spacing":0,
-         "tilecount":12,
-         "tileheight":32,
-         "tiles":[
-                {
-                 "id":0,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }],
-         "tilewidth":32
+         "source":"Special_Zones.tsx"
         }, 
         {
          "firstgid":455,
