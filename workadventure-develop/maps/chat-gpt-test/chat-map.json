@@ -60,6 +60,23 @@
         0, 0, 0, 0, 0,
         0, 0, 0, 0, 0
       ]
+    },
+    {
+      "type": "tilelayer",
+      "name": "Armors",
+      "width": 5,
+      "height": 5,
+      "x": 0,
+      "y": 0,
+      "visible": true,
+      "opacity": 1,
+      "data": [
+        108, 0, 0, 0, 109,
+        0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0,
+        110, 0, 0, 0, 111
+      ]
     }
   ],
   "tilesets": [
@@ -93,6 +110,17 @@
       "tilecount": 90,
       "columns": 10,
       "image": "Food.png",
+      "imagewidth": 250,
+      "imageheight": 250
+    },
+    {
+      "firstgid": 108,
+      "name": "Special_Zones",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 16,
+      "columns": 4,
+      "image": "Special_Zones.png",
       "imagewidth": 250,
       "imageheight": 250
     }
