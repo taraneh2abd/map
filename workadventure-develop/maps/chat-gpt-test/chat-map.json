@@ -1,0 +1,70 @@
+{
+  "height": 5,
+  "width": 5,
+  "tilewidth": 32,
+  "tileheight": 32,
+  "infinite": false,
+  "orientation": "orthogonal",
+  "renderorder": "right-down",
+  "version": "1.10",
+  "tiledversion": "1.10.2",
+  "type": "map",
+  "layers": [
+    {
+      "type": "tilelayer",
+      "name": "Grass",
+      "width": 5,
+      "height": 5,
+      "x": 0,
+      "y": 0,
+      "visible": true,
+      "opacity": 1,
+      "data": [
+        1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1,
+        1, 1, 1, 1, 1
+      ]
+    },
+    {
+      "type": "tilelayer",  
+      "name": "Pigs",
+      "width": 5,
+      "height": 5,
+      "x": 0,
+      "y": 0,
+      "visible": true,
+      "opacity": 1,
+      "data": [
+        0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0,      
+        0, 0, 0, 0, 0,
+        0, 6, 0, 0, 0,
+        0, 0, 0, 0, 0
+      ]
+    },
+    {
+      "type": "tilelayer",
+      "name": "Food",
+      "width": 5,
+      "height": 5,
+      "x": 0,
+      "y": 0,
+      "visible": true,
+      "opacity": 1,
+      "data": [
+        0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0,      
+        0, 0, 27, 0, 0,
+        0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0
+      ]
+    }
+  ],
+"tilesets": [
+  { "firstgid": 1, "source": "grass.tsx" },      
+  { "firstgid": 2, "source": "Pigs.tsx" },    
+  { "firstgid": 18, "source": "Food.tsx" }       
+]
+}
