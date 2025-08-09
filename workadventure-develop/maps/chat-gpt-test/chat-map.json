@@ -1,8 +1,8 @@
 {
   "height": 5,
   "width": 5,
-  "tilewidth": 128,
-  "tileheight": 128,
+  "tilewidth": 32,
+  "tileheight": 32,
   "infinite": false,
   "orientation": "orthogonal",
   "renderorder": "right-down",
