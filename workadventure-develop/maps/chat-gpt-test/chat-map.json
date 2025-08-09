@@ -29,7 +29,7 @@
     },
     {
       "type": "tilelayer",
-      "name": "Pigs",
+      "name": "Chickens",
       "width": 5,
       "height": 5,
       "x": 0,
@@ -38,7 +38,7 @@
       "opacity": 1,
       "data": [
         0, 0, 0, 0, 0,
-        0, 0, 0, 0, 0,
+        0, 0, 0, 10, 0,
         0, 0, 0, 0, 0,
         0, 6, 0, 0, 0,
         0, 0, 0, 0, 0
@@ -76,14 +76,14 @@
     },
     {
       "firstgid": 2,
-      "name": "Pigs",
-      "tilewidth": 128,
-      "tileheight": 128,
+      "name": "Chickens",
+      "tilewidth": 32,
+      "tileheight": 32,
       "tilecount": 16,
       "columns": 4,
-      "image": "Pigs.png",
-      "imagewidth": 512,
-      "imageheight": 512
+      "image": "Chickens.png",
+      "imagewidth": 128,
+      "imageheight": 128
     },
     {
       "firstgid": 18,
