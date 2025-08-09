@@ -1,8 +1,8 @@
 {
   "height": 5,
   "width": 5,
-  "tilewidth": 32,
-  "tileheight": 32,
+  "tilewidth": 128,
+  "tileheight": 128,
   "infinite": false,
   "orientation": "orthogonal",
   "renderorder": "right-down",
@@ -28,7 +28,7 @@
       ]
     },
     {
-      "type": "tilelayer",  
+      "type": "tilelayer",
       "name": "Pigs",
       "width": 5,
       "height": 5,
@@ -38,7 +38,7 @@
       "opacity": 1,
       "data": [
         0, 0, 0, 0, 0,
-        0, 0, 0, 0, 0,      
+        0, 0, 0, 0, 0,
         0, 0, 0, 0, 0,
         0, 6, 0, 0, 0,
         0, 0, 0, 0, 0
@@ -55,16 +55,46 @@
       "opacity": 1,
       "data": [
         0, 0, 0, 0, 0,
-        0, 0, 0, 0, 0,      
+        0, 0, 0, 0, 0,
         0, 0, 27, 0, 0,
         0, 0, 0, 0, 0,
         0, 0, 0, 0, 0
       ]
     }
   ],
-"tilesets": [
-  { "firstgid": 1, "source": "grass.tsx" },      
-  { "firstgid": 2, "source": "Pigs.tsx" },    
-  { "firstgid": 18, "source": "Food.tsx" }       
-]
+  "tilesets": [
+    {
+      "firstgid": 1,
+      "name": "Grass",
+      "tilewidth": 32,
+      "tileheight": 32,
+      "tilecount": 1,
+      "columns": 1,
+      "image": "grass.png",
+      "imagewidth": 32,
+      "imageheight": 32
+    },
+    {
+      "firstgid": 2,
+      "name": "Pigs",
+      "tilewidth": 128,
+      "tileheight": 128,
+      "tilecount": 16,
+      "columns": 4,
+      "image": "Pigs.png",
+      "imagewidth": 512,
+      "imageheight": 512
+    },
+    {
+      "firstgid": 18,
+      "name": "Food",
+      "tilewidth": 25,
+      "tileheight": 25,
+      "tilecount": 90,
+      "columns": 10,
+      "image": "Food.png",
+      "imagewidth": 250,
+      "imageheight": 250
+    }
+  ]
 }
